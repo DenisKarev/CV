@@ -8,7 +8,7 @@
   <!-- <link rel="preload" type="font/woff" as="font" href="./fonts/Poppins-VariableFont_wght.otf"> -->
   <link rel="stylesheet" href="./css/style.css">
   <!-- <link rel="stylesheet" href="./css/atom-one-dark.min.css"> -->
-  <title>&quot;CV#2: HTML, CSS &amp; Git Basics&quot;</title>
+  <title>Denis Karev - Curiculum vitae</title>
 </head>
 
 <body>
@@ -42,14 +42,16 @@
         <h2 class="left-section-title">Contact</h2>
         <ul class="contact-list">
           <li class="contact-list-item">
-            <a class="contact-list-item-link" href="tel:+123(45)678-90-ab">
+            <a class="contact-list-item-link" href="tel:+123(45)678-90-ab"
+              title="It's faked, please don't call this number">
               <img src="./img/svg/call_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="Phone icon" height="24" width="24">
               <p>+123&nbsp;(45)&nbsp;678&#8209;90&#8209;ab</p>
             </a>
           </li>
           <li class="contact-list-item">
             <div>
-              <a class="contact-list-item-link" href="mailto:have.no@public.email">
+              <a class="contact-list-item-link" href="mailto:have.no@public.email"
+                title="It's faked, email does'nt exists">
                 <img src="./img/svg/mail_24dp_FILL0_wght400_GRAD0_opsz24.svg" alt="Email message icon" height="24"
                   width="24">
                 <p>no.email@at.all</p>
@@ -58,7 +60,7 @@
           </li>
           <li class="contact-list-item">
             <a class="contact-list-item-link" href="https://www.linkedin.com/in/denis-karev-590764264/" target="_blank"
-              rel="noreferrer noopener" title="earth.google.com">
+              rel="noreferrer noopener" title="real contact">
               <img src="./img/svg/linkedin_icon.svg" alt="LinkedIn icon" height="24" width="24">
               <p>LinkedIn profile</p>
             </a>
@@ -90,19 +92,33 @@
       <section class="education">
         <div class="anchor" id="id-educs"></div>
         <h2 class="left-section-title">Education</h2>
-        <ul>
+        <ul class='education-list'>
           <li>
             <p>Elementary School</p>
           </li>
           <li>
-            <p>Secondary School</p>
+            <p>Secondary School <small>(with an artistic bias)</small></p>
+          </li>
+          <li>
+            <p>Educational institution "Minsk City Educational and Vocational Center of Decorative and Applied Arts"</p>
+            <small>Profession: <b>Wood carver with marquetry skills.</b></small>
           </li>
           <li>
             <p>Self study most of my life</p>
           </li>
         </ul>
         <h3 class="courses-title">Courses</h3>
-        <p><small>GeekBrains FrontEnd JS (Vue)</small></p>
+        <ul class='courses-list'>
+          <li>
+            <p><small>GeekBrains FrontEnd JS (Vue)</small></p>
+          </li>
+          <li>
+            <p><a href="https://rs.school" target='_blank'>RSSchool</a> JavaScript/Front-end 2024Q4</p>
+            <p>with <a href="https://app.rs.school/certificate/gpknsre7" target='_blank'>certificate</a> and <a
+                href="https://app.rs.school/cv/55862d06-83c3-48e5-a20a-f5394e0c76d3" target='_blank'>public cv</a></p>
+          </li>
+        </ul>
+
       </section>
 
       <section class="skills">
@@ -115,8 +131,8 @@
           <li class="skills-list-item">
             <p>Css3|scss</p><span class="skills-list-dots">●●●○○○</span>
           </li>
-          <li class="skills-list-item">JavaScript<span class="skills-list-dots">●●○○○○</span></li>
-          <li class="skills-list-item">Git|GitHub<span class="skills-list-dots">●●○○○○</span></li>
+          <li class="skills-list-item">JavaScript<span class="skills-list-dots">●●●○○○</span></li>
+          <li class="skills-list-item">Git|GitHub<span class="skills-list-dots">●●●○○○</span></li>
           <li class="skills-list-item">
             <details class="details-soft">
               <summary>Softskills</summary>
@@ -127,19 +143,18 @@
                 </li>
                 <li class="skills-list-item details-soft-list-item">
                   <p>Communication</p>
-                  <span class="skills-list-dots">●●○○○</span>
-                </li>
-                <li class="skills-list-item details-soft-list-item">
-                  <p>Honest</p>
                   <span class="skills-list-dots">●●●○○</span>
                 </li>
                 <li class="skills-list-item details-soft-list-item">
+                  <p>Honest</p>
+                  <span class="skills-list-dots">●●●●○</span>
+                </li>
+                <li class="skills-list-item details-soft-list-item">
                   <p>Multitask</p>
-                  <span class="skills-list-dots">●●○○○</span>
+                  <span class="skills-list-dots">●●●○○</span>
                 </li>
                 <li class="skills-list-item details-soft-list-item">
                   <p>Stress <br><span>resistant</span></p>
-
                   <span class="skills-list-dots stress">●●○○○</span>
                 </li>
               </ul>
@@ -163,6 +178,7 @@
             have some proficiency in searching for iformation that helps me understand what happens on earlier
             mentioned computer(s)</p>
           <p class="self-description-text">I have open mind, i hope. Have motivation and desire for leaning.</p>
+          <p class="self-description-text">I don't hesitate to work with my hands if needed</p>
         </div>
       </article>
 
@@ -209,13 +225,17 @@
             <p class="language-item"><strong>Russian:</strong> Native</p>
           </li>
           <li>
-            <p class="language-item"><strong>Belorussian:</strong> ~Native</p>
+            <p class="language-item"><strong>Belorussian:</strong> not as good as russian (native)</p>
           </li>
           <li>
             <p class="language-item"><strong>English:</strong> between C1 and C2
               <a class="right-section-link" href="https://cert.efset.org/iNtydG" target="_blank"
-                rel="noreferrer noopener" title="but i think they overestimated me">efset.org</a>
+                rel="noreferrer noopener" title="but i think they overestimated me">efset.org</a>,
+              but for real probably B1-B2.
             </p>
+          </li>
+          <li>
+            <p class="language-item"><strong>Deutsch:</strong> A1 (just started)</p>
           </li>
         </ul>
       </section>
@@ -225,7 +245,7 @@
         <h3 class="left-section-title">Experience</h3>
         <ul>
           <li>
-            <p class="experience-list-item"><strong>2023-present:</strong> freelance / unemployed</p>
+            <p class="experience-list-item"><strong>2023-present:</strong> freelance / study / unemployed</p>
           </li>
           <li>
             <p class="experience-list-item"><strong>2012-2023: "Medal studio Sens"</strong><br>as
@@ -247,8 +267,8 @@
     </section>
   </main>
   <footer class="footer centainer">
-    <a class="footer-link" href="https://github.com/DenisKarev">&copy; Denis Karev</a>
-    <p>2024</p>
+    <a class="footer-link" href="https://github.com/DenisKarev">&copy; Denis Karev 2025</a>
+    <p>first made in 2024 for RSSchool</p>
     <a class="footer-rssch-link" href="https://rs.school/courses/javascript-ru" target="_blank"
       rel="noreferrer noopener" title="GitHub.com">
       <img src="./img/svg/rs_school_js_black.svg" alt="RS_Shool logo" height="36" width="100">
